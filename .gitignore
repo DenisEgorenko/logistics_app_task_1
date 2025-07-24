@@ -1,0 +1,48 @@
+# --- Общие исключения ---
+node_modules/
+dist/
+*.log
+.env
+.env.*.local
+*.tsbuildinfo
+
+# --- Docker ---
+*.local
+Dockerfile.local
+docker-compose.override.yml
+
+# --- IDE / редакторы ---
+.idea/
+.vscode/
+*.iml
+
+# --- Операционная система ---
+.DS_Store
+Thumbs.db
+
+# --- React / Vite frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+
+# --- NestJS backend ---
+user-service/node_modules/
+user-service/dist/
+user-service/.env
+
+notification-service/node_modules/
+notification-service/dist/
+notification-service/.env
+
+route-service/node_modules/
+route-service/dist/
+route-service/.env
+
+order-service/node_modules/
+order-service/dist/
+order-service/.env
+
+# --- Тесты / покрытие ---
+coverage/
+test-results/
