@@ -98,7 +98,7 @@ export default function Settings() {
                                 <TableHead>
                                     <TableRow>
                                         <TableCell sx={{width: '35%'}}><strong>Сервис</strong></TableCell>
-                                        <TableCell sx={{width: '20%'}}><strong>Протокол</strong></TableCell>
+                                        {/*<TableCell sx={{width: '20%'}}><strong>Протокол</strong></TableCell>*/}
                                         <TableCell sx={{width: '10%', pl: 2}}
                                                    align="center"><strong>Индикация</strong></TableCell>
                                         <TableCell sx={{width: '35%'}}><strong>Статус</strong></TableCell>
@@ -108,7 +108,7 @@ export default function Settings() {
                                     {group.items.map((row, idx) => (
                                         <TableRow key={idx}>
                                             <TableCell sx={{width: '35%'}}>{row.label}</TableCell>
-                                            <TableCell sx={{width: '20%'}}>{row.protocol}</TableCell>
+                                            {/*<TableCell sx={{width: '20%'}}>{row.protocol}</TableCell>*/}
                                             <TableCell align="center" sx={{pl: 2, width: '10%'}}>
                                                 <CircleIcon
                                                     sx={{fontSize: 14, color: row.connected ? 'green' : 'red'}}/>
