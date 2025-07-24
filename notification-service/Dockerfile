@@ -4,7 +4,7 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-ARG PORT=3003
+ARG PORT=3004
 ENV PORT=$PORT
 
 COPY package*.json ./

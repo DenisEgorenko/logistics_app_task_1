@@ -33,7 +33,7 @@ export default function Header() {
                     {/* Левая часть */}
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 3 }}>
                         <Typography variant="h5" component="div">
-                            Mini Bank App
+                            Logistics App
                         </Typography>
 
                         {!isMobile && navItems.map(({ label, path }) => (
